@@ -1,0 +1,337 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 0;
+}
+
+.Header {
+  max-width: 1200px;
+  width: 95%;
+  margin: auto;
+  padding: 1rem 1rem;
+  background:black;
+}
+.Header-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+}
+.Header-li {
+  list-style-type: none;
+  
+}
+.Header-a {
+  text-decoration: none;
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+}
+
+.Main {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0.5rem 0 0;
+  padding: 2rem;
+}
+.Main-h1 {
+  background:linear-gradient(to left,blue,#031144);
+  margin: 2rem 0 5rem;
+  text-transform: uppercase;
+  border-radius: 2em;
+}
+.Main-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+}
+.Main-li {
+  list-style-type: none;
+}
+.Main-a {
+  text-decoration: none;
+  font-weight: bold;
+  
+}
+.Main-btn {
+  display: none;
+  pointer-events: none;
+}
+
+.Main-a.active {
+  color: red;
+}
+
+.Main-section {
+  display: none;
+}
+
+.Main-section.active {
+  display: block;
+}
+
+.Datos {
+  margin: 0 auto 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1rem;
+  background: radial-gradient( pink,orange,#0e143f);
+  width: 80vw;
+  max-width: 40rem;
+  padding: 1rem 5rem 1rem;
+  border-radius: 1rem;
+  filter: drop-shadow(0 0 10px red);
+  transition: 0.3s;
+}
+.Datos:hover{
+  filter: drop-shadow(0 0 40px red);
+
+}
+.Datos-h2 {
+  padding: 0 0 3rem 0;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+.Datos-li {
+  width: 20rem;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 1rem;
+}
+.Datos-label {
+  font-weight: 500;
+  color: blue;
+}
+.Datos-input {
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 2rem;
+  width: 17rem;
+  border: 2px solid blue;
+  -webkit-transition: border 0.3s ease;
+  transition: border 0.3s ease;
+}
+.Datos-input:hover {
+  border: 2px solid rgb(12, 226, 226);
+}
+.Datos-input:focus {
+  outline: none;
+  border: none;
+  border: 2px solid rgb(12, 226, 226);
+}
+.Datos-btn {
+  background-color: #fff;
+  padding: 0.5rem 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 1rem 0 0;
+  border-radius: 2rem;
+  border: 2px solid #0B32C2;
+  color: #0B32C2;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.Datos-btn:hover {
+  background-color: #0B32C2;
+  border: 3px solid #0B32C2;
+  color: #fff;
+}
+.Datos-btn:active {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.Table {
+  margin: 0 auto 2rem;
+  padding: 1rem;
+  border-collapse: collapse;
+}
+.Table-tr {
+  padding: 1rem;
+}
+.Table-th {
+  background-color: rgb(32, 18, 217);
+  border: 2px solid blue;
+  padding: 1rem 0.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+}
+.Table-td {
+  background-color: rgb(254, 254, 254);
+  border: 2px solid blue;
+  padding: 0.5rem 1rem;
+  color: blue;
+}
+.body__div{
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 35em;
+  background:url(../assets/img/paisaje.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  backface-visibility: visible;
+  
+  
+}
+
+.footer {
+  background-color: #000;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1em;
+
+    
+}
+
+.Footer-p {
+  color: #fff;
+  font-size: 1.1em;
+  padding: 0.7rem;
+}
+
+.Main::after {
+  content: "";
+  width: 100vw;
+  height: 150vh;
+  position: absolute;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1;
+  top: 10%;
+  left: 0;
+}
+
+@media screen and (max-width: 659px) {
+  .Main-h1 {
+    margin: 3rem 0;
+  }
+  .Main-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
+    padding: 1rem 1rem 0;
+  }
+  .Main-h2 {
+    display: block;
+    background-color: transparent;
+    color: #000;
+    font-size: 1.3em;
+  }
+  .Main-ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
+  }
+  .Main-li {
+    width: 12rem;
+    text-align: start;
+    position: relative;
+  }
+  .Main-li::after {
+    content: "";
+    background-color: red;
+    width: 0.6rem;
+    height: 0.6rem;
+    position: absolute;
+    z-index: 1;
+    left: -12%;
+    top: 20%;
+    border-radius: 50%;
+  }
+  .Main-section {
+    margin: 0 0 1rem 0;
+  }
+  .Datos {
+    padding: 0 1rem;
+  }
+  .Datos-li {
+    max-width: 17rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Datos-input {
+    max-width: 18rem;
+  }
+  .Table-th{
+    font-size: 0.8rem;
+  }
+  .Table-td{
+    font-size: 0.5rem;
+  }
+}

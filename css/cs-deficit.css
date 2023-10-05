@@ -1,0 +1,137 @@
+/* styles.css */
+h1 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.cs-deficit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    border-radius: 2em;
+    background-color: pink;
+}
+.datos-input{
+    color:black;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    border-radius: 2em;
+}
+
+.table{
+    align-items: none;
+    float: right;
+    
+    background-color: pink;
+
+    text-align: center;
+    font-weight: bold;
+}
+
+.table__thE{
+    
+    font-size: 1.5rem;
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+}
+.table__tdE{
+    font-size: 1.5rem;
+}
+
+.containerMain{
+    padding: 1rem;
+    background: radial-gradient(orange,#0e143f);
+    border-radius: 2rem;
+    filter:drop-shadow(0 0 10px red) ;
+    transition: 0.3s;
+}
+.containerMain:hover{
+    filter:drop-shadow(0 0 40px red) ;
+
+}
+.container2E{
+
+    margin: 7px;
+    background: radial-gradient(orange,#0e143f);
+    
+    border-radius: 2rem;
+    padding: 2rem;
+    display: grid;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    
+   filter:drop-shadow(0 0 10px red);
+   transition: all 0.3s;
+    
+}
+.container2E:hover{
+    filter:drop-shadow(0 0 40px red);
+    
+    
+}
+
+.Deficit-h2{
+    padding: 0 0 1rem  ;
+    margin: 0 0 1rem ;
+    text-align: center;
+}
+
+
+@media screen and (max-width:560px){
+
+    .containerMain{
+        padding: 1em !important;
+        font-size: 1rem;
+        text-align: center;
+
+    }
+    .container2E{
+        padding: 1rem !important;
+      
+    }
+    .input{
+        font-size: 2rem;
+    }
+    .cs-deficit{
+        flex-direction: column;
+    }
+    .table__thE{
+        font-size: 0.8rem;
+    }
+    .table__tdE{
+        font-size: 0.7rem;
+    }
+   
+}
+
+
